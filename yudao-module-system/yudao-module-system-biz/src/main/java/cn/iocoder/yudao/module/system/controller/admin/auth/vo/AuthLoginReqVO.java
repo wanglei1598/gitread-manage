@@ -36,7 +36,7 @@ public class AuthLoginReqVO {
 
     @Schema(description = "验证码，验证码开启时，需要传递", requiredMode = Schema.RequiredMode.REQUIRED,
             example = "PfcH6mgr8tpXuMWFjvW6YVaqrswIuwmWI5dsVZSg7sGpWtDCUbHuDEXl3cFB1+VvCC/rAkSwK8Fad52FSuncVg==")
-    @NotEmpty(message = "验证码不能为空", groups = CodeEnableGroup.class)
+    // @NotEmpty(message = "验证码不能为空", groups = CodeEnableGroup.class)
     private String captchaVerification;
 
     // ========== 绑定社交登录时，需要传递如下参数 ==========
