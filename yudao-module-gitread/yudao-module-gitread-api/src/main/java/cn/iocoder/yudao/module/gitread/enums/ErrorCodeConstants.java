@@ -8,4 +8,9 @@ public interface ErrorCodeConstants {
     ErrorCode TRENDING_REPO_NOT_EXISTS = new ErrorCode(1, "此表用于存储 GitRead 的仓库不存在");
 
     ErrorCode TRENDING_NOT_EXISTS = new ErrorCode(2, "每日爬取排行榜不存在");
+
+    ErrorCode THEME_NOT_EXISTS = new ErrorCode(3, "主题不存在");
+
+    ErrorCode THEME_REPO_RELATION_NOT_EXISTS = new ErrorCode(4, "主题关系不存在");
+
 }
